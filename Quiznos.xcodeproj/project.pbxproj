@@ -12,6 +12,15 @@
 		DF0EA04C1E2D5966008C6587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0EA04A1E2D5966008C6587 /* Main.storyboard */; };
 		DF0EA04E1E2D5966008C6587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0EA04D1E2D5966008C6587 /* Assets.xcassets */; };
 		DF0EA0511E2D5966008C6587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0EA04F1E2D5966008C6587 /* LaunchScreen.storyboard */; };
+		DF54B07E1E2E142D00CFDF49 /* ViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54B07D1E2E142D00CFDF49 /* ViewPresenter.swift */; };
+		DF54B0801E2E144000CFDF49 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54B07F1E2E144000CFDF49 /* Question.swift */; };
+		DF54B0821E2E144900CFDF49 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54B0811E2E144900CFDF49 /* Answer.swift */; };
+		DF54B0841E2E144F00CFDF49 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54B0831E2E144F00CFDF49 /* Round.swift */; };
+		DF54B0871E2E149200CFDF49 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54B0861E2E149200CFDF49 /* Difficulty.swift */; };
+		DF54B0891E2E153100CFDF49 /* String Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54B0881E2E153100CFDF49 /* String Extension.swift */; };
+		DF54B08C1E2E562200CFDF49 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54B08B1E2E562200CFDF49 /* NetworkManager.swift */; };
+		DF54B08E1E2E570600CFDF49 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54B08D1E2E570600CFDF49 /* Parser.swift */; };
+		DF54B0901E2E57C700CFDF49 /* QuizAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54B08F1E2E57C700CFDF49 /* QuizAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		DF0EA04D1E2D5966008C6587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF0EA0501E2D5966008C6587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF0EA0521E2D5966008C6587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF54B07D1E2E142D00CFDF49 /* ViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPresenter.swift; sourceTree = "<group>"; };
+		DF54B07F1E2E144000CFDF49 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DF54B0811E2E144900CFDF49 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		DF54B0831E2E144F00CFDF49 /* Round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		DF54B0861E2E149200CFDF49 /* Difficulty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
+		DF54B0881E2E153100CFDF49 /* String Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String Extension.swift"; sourceTree = "<group>"; };
+		DF54B08B1E2E562200CFDF49 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DF54B08D1E2E570600CFDF49 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		DF54B08F1E2E57C700CFDF49 /* QuizAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +74,37 @@
 			children = (
 				DF0EA0461E2D5966008C6587 /* AppDelegate.swift */,
 				DF0EA0481E2D5966008C6587 /* ViewController.swift */,
+				DF54B07D1E2E142D00CFDF49 /* ViewPresenter.swift */,
+				DF54B08F1E2E57C700CFDF49 /* QuizAPI.swift */,
+				DF54B08D1E2E570600CFDF49 /* Parser.swift */,
+				DF54B08B1E2E562200CFDF49 /* NetworkManager.swift */,
+				DF54B0851E2E145200CFDF49 /* Models */,
+				DF54B08A1E2E153A00CFDF49 /* Helpers */,
 				DF0EA04A1E2D5966008C6587 /* Main.storyboard */,
 				DF0EA04D1E2D5966008C6587 /* Assets.xcassets */,
 				DF0EA04F1E2D5966008C6587 /* LaunchScreen.storyboard */,
 				DF0EA0521E2D5966008C6587 /* Info.plist */,
 			);
 			path = Quiznos;
+			sourceTree = "<group>";
+		};
+		DF54B0851E2E145200CFDF49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF54B07F1E2E144000CFDF49 /* Question.swift */,
+				DF54B0811E2E144900CFDF49 /* Answer.swift */,
+				DF54B0831E2E144F00CFDF49 /* Round.swift */,
+				DF54B0861E2E149200CFDF49 /* Difficulty.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DF54B08A1E2E153A00CFDF49 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DF54B0881E2E153100CFDF49 /* String Extension.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF54B0901E2E57C700CFDF49 /* QuizAPI.swift in Sources */,
+				DF54B07E1E2E142D00CFDF49 /* ViewPresenter.swift in Sources */,
+				DF54B0801E2E144000CFDF49 /* Question.swift in Sources */,
+				DF54B08E1E2E570600CFDF49 /* Parser.swift in Sources */,
+				DF54B0871E2E149200CFDF49 /* Difficulty.swift in Sources */,
+				DF54B0821E2E144900CFDF49 /* Answer.swift in Sources */,
 				DF0EA0491E2D5966008C6587 /* ViewController.swift in Sources */,
+				DF54B0891E2E153100CFDF49 /* String Extension.swift in Sources */,
+				DF54B0841E2E144F00CFDF49 /* Round.swift in Sources */,
+				DF54B08C1E2E562200CFDF49 /* NetworkManager.swift in Sources */,
 				DF0EA0471E2D5966008C6587 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +352,7 @@
 				DF0EA0571E2D5966008C6587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
