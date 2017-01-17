@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0EA0471E2D5966008C6587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0EA0461E2D5966008C6587 /* AppDelegate.swift */; };
+		DF0EA0491E2D5966008C6587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0EA0481E2D5966008C6587 /* ViewController.swift */; };
+		DF0EA04C1E2D5966008C6587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0EA04A1E2D5966008C6587 /* Main.storyboard */; };
+		DF0EA04E1E2D5966008C6587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0EA04D1E2D5966008C6587 /* Assets.xcassets */; };
+		DF0EA0511E2D5966008C6587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0EA04F1E2D5966008C6587 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF0EA0431E2D5966008C6587 /* Quiznos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiznos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0EA0461E2D5966008C6587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF0EA0481E2D5966008C6587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF0EA04B1E2D5966008C6587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF0EA04D1E2D5966008C6587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF0EA0501E2D5966008C6587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF0EA0521E2D5966008C6587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF0EA0401E2D5966008C6587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0EA03A1E2D5966008C6587 = {
+			isa = PBXGroup;
+			children = (
+				DF0EA0451E2D5966008C6587 /* Quiznos */,
+				DF0EA0441E2D5966008C6587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF0EA0441E2D5966008C6587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF0EA0431E2D5966008C6587 /* Quiznos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF0EA0451E2D5966008C6587 /* Quiznos */ = {
+			isa = PBXGroup;
+			children = (
+				DF0EA0461E2D5966008C6587 /* AppDelegate.swift */,
+				DF0EA0481E2D5966008C6587 /* ViewController.swift */,
+				DF0EA04A1E2D5966008C6587 /* Main.storyboard */,
+				DF0EA04D1E2D5966008C6587 /* Assets.xcassets */,
+				DF0EA04F1E2D5966008C6587 /* LaunchScreen.storyboard */,
+				DF0EA0521E2D5966008C6587 /* Info.plist */,
+			);
+			path = Quiznos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF0EA0421E2D5966008C6587 /* Quiznos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0EA0551E2D5966008C6587 /* Build configuration list for PBXNativeTarget "Quiznos" */;
+			buildPhases = (
+				DF0EA03F1E2D5966008C6587 /* Sources */,
+				DF0EA0401E2D5966008C6587 /* Frameworks */,
+				DF0EA0411E2D5966008C6587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quiznos;
+			productName = Quiznos;
+			productReference = DF0EA0431E2D5966008C6587 /* Quiznos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0EA03B1E2D5966008C6587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "John Yorke";
+				TargetAttributes = {
+					DF0EA0421E2D5966008C6587 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZKAN55X625;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF0EA03E1E2D5966008C6587 /* Build configuration list for PBXProject "Quiznos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF0EA03A1E2D5966008C6587;
+			productRefGroup = DF0EA0441E2D5966008C6587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF0EA0421E2D5966008C6587 /* Quiznos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF0EA0411E2D5966008C6587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0EA0511E2D5966008C6587 /* LaunchScreen.storyboard in Resources */,
+				DF0EA04E1E2D5966008C6587 /* Assets.xcassets in Resources */,
+				DF0EA04C1E2D5966008C6587 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF0EA03F1E2D5966008C6587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0EA0491E2D5966008C6587 /* ViewController.swift in Sources */,
+				DF0EA0471E2D5966008C6587 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF0EA04A1E2D5966008C6587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0EA04B1E2D5966008C6587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF0EA04F1E2D5966008C6587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0EA0501E2D5966008C6587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF0EA0531E2D5966008C6587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF0EA0541E2D5966008C6587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0EA0561E2D5966008C6587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZKAN55X625;
+				INFOPLIST_FILE = Quiznos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.Quiznos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF0EA0571E2D5966008C6587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZKAN55X625;
+				INFOPLIST_FILE = Quiznos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnyorke.Quiznos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0EA03E1E2D5966008C6587 /* Build configuration list for PBXProject "Quiznos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0EA0531E2D5966008C6587 /* Debug */,
+				DF0EA0541E2D5966008C6587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0EA0551E2D5966008C6587 /* Build configuration list for PBXNativeTarget "Quiznos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0EA0561E2D5966008C6587 /* Debug */,
+				DF0EA0571E2D5966008C6587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF0EA03B1E2D5966008C6587 /* Project object */;
+}
